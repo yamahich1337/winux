@@ -17,7 +17,7 @@ clear
 apt install wine
 echo "Installing Wine"
 clear
-echo "Installing KDE"
-apt install kde-full
+echo "Installing XFCE"
+apt install xfce4
 clear
 echo "Setup is complete! Now you can run your Winux 1.0 using winux-start"
