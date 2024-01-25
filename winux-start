@@ -3,19 +3,12 @@
 termux-wake-lock
 
 pkg update && pkg upgrade -y 
-clear
-clear
+
 termux-x11 &
-clear
 echo "Starting up termux-11"
 proot-distro login debian
-clear
 apt update
 apt upgrade
-echo updating/refreshing all files
-clear
-clear
-echo "Starting Up KDE Plasma desktop"
-plasmashell
-clear
+xfce4-session
+
 echo "Now run the Termux-X11"
