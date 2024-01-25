@@ -18,6 +18,6 @@ apt install wine
 echo "Installing Wine"
 clear
 echo "Installing KDE"
-apt install kde-plasma-desktop konsole
+apt install kde-plasma-desktop
 clear
 echo "Setup is complete! Now you can run your Winux 1.0 using winux-start"
