@@ -10,7 +10,6 @@ clear
 echo "Starting up termux-11"
 proot-distro login debian
 clear
-echo "Installing Chromium"
 apt update
 apt upgrade
 echo updating/refreshing all files
