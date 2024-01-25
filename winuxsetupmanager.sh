@@ -1,24 +1,23 @@
 pkg update && pkg upgrade -y && pkg install x11-repo -y
 clear
-pkg install termux-x11-nightly %% pkg install proot-distro
+pkg install termux-x11-nightly proot-distro
 clear
-pd install debian
-echo installing debian
+proot-distro install debian
+echo "Installing Debian"
 termux-x11 &
 clear
-echo setting up the termux-x11
-pd login debian
+echo "Setting up Termux-X11"
+proot-distro login debian
 clear
-echo installing chromium
+echo "Installing Chromium"
 apt update
 apt upgrade
 apt install chromium-sandbox
 clear
 apt install wine
-echo installing wine
+echo "Installing Wine"
 clear
-echo installing kde
-apt install kde-plasma-desktop
-apt install konsole
+echo "Installing KDE"
+apt install kde-plasma-desktop konsole
 clear
-echo setup is ended! now you can run ur Winux 1.0 using winux-start
+echo "Setup is complete! Now you can run your Winux 1.0 using winux-start"
